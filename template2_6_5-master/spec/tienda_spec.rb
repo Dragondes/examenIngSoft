@@ -16,4 +16,7 @@ RSpec.describe Tienda do
     it 'tercera prueba deberia devolver el precio ingresado' do
         expect(@tienda.calcular_Precio_Final(1000,30)).to eq(900)
     end
+    it 'tercera prueba deberia devolver el precio ingresado' do
+        expect(@tienda.calcular_Precio_Final(10,30)).to eq(300)
+    end
 end
